@@ -39,7 +39,7 @@ DATASET_ID = 'sales_intelligence'
 TABLE_ID = 'daily_summary'
 # -------------
 
-st.set_page_config(page_title="1101 MUSEUM", layout="wide")
+# st.set_page_config(page_title="1101 MUSEUM", layout="wide") # 제거 요청됨
 
 # 콤팩트 다크 테마 CSS (글자 크기 이전 버전으로 축소)
 st.markdown("""
