@@ -39,7 +39,7 @@ DATASET_ID = 'sales_intelligence'
 TABLE_ID = 'daily_summary'
 # -------------
 
-# st.set_page_config(page_title="1101 MUSEUM", layout="wide") # 제거 요청됨
+# st.set_page_config(page_title="1101 MUSEUM", layout="wide") 
 
 # 콤팩트 다크 테마 CSS (글자 크기 이전 버전으로 축소)
 st.markdown("""
@@ -190,7 +190,7 @@ def format_num(val):
         return "0"
 
 def main():
-    st.markdown('<div class="dashboard-title">🏛️ 1101 MUSEUM 이용완료 매출/인원 현황</div>', unsafe_allow_html=True)
+    st.markdown('<div class="dashboard-title">🏛️ BW Sales Intelligence Dashboard</div>', unsafe_allow_html=True)
     
     tab1, tab2 = st.tabs(["📊 판매 요약", "📋 상세 내역"])
     
